@@ -1,0 +1,452 @@
+﻿[
+    {
+        "id":  200,
+        "artikelnummer":  "9104646-WOK",
+        "hersteller":  "Applaws",
+        "titel":  "Applaws Cat MP Fisch Selection 12x70g",
+        "price":  170,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/5060333437381.png",
+        "weight":  "0,84 kg"
+    },
+    {
+        "id":  201,
+        "artikelnummer":  "9113588-WOK",
+        "hersteller":  "Applaws",
+        "titel":  "Applaws Cat MP Fisch Selection in Gelee 12x70g",
+        "price":  150,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/5060481899147.png",
+        "weight":  "0,84 kg"
+    },
+    {
+        "id":  202,
+        "artikelnummer":  "9113575-WOK",
+        "hersteller":  "Applaws",
+        "titel":  "Applaws Cat MP Fisch Selection 12x156g",
+        "price":  300,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/5060481899086.png",
+        "weight":  "1,872 kg"
+    },
+    {
+        "id":  203,
+        "artikelnummer":  "197366-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet DeliCatessen Wild \u0026 Huhn Adult - 300 g",
+        "price":  45,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197366_197380_delicatessen_wild_huhn.jpg",
+        "weight":  "0,3 kg"
+    },
+    {
+        "id":  204,
+        "artikelnummer":  "197380-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet DeliCatessen Wild \u0026 Huhn Adult - 1,8 kg",
+        "price":  185,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197366_197380_delicatessen_wild_huhn.jpg",
+        "weight":  "1,8 kg"
+    },
+    {
+        "id":  205,
+        "artikelnummer":  "198226-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet Delicatessen Dose Thunfisch \u0026 Ente - 400 g",
+        "price":  35,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/198226_delicatessen2019_400g_3d_thunfisch_ente.jpg",
+        "weight":  "0,4 kg"
+    },
+    {
+        "id":  206,
+        "artikelnummer":  "198028-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet Delicatessen Dose Truthahn \u0026 Fasan - 200 g",
+        "price":  25,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/198028_delicatessen_2019_200g_3d_truthahn_fasan.jpg",
+        "weight":  "0,2 kg"
+    },
+    {
+        "id":  207,
+        "artikelnummer":  "198325-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet Delicatessen Dose Truthahn \u0026 Fasan - 400 g",
+        "price":  35,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/198325_delicatessen2019_400g_3d_truthahn_fasan.jpg",
+        "weight":  "0,4 kg"
+    },
+    {
+        "id":  208,
+        "artikelnummer":  "197403-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet DeliCatessen Wild \u0026 Huhn Adult - 9 kg",
+        "price":  640,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197366_197380_delicatessen_wild_huhn.jpg",
+        "weight":  "9 kg"
+    },
+    {
+        "id":  209,
+        "artikelnummer":  "197885-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet Delicatessen Dose Fasan \u0026 Kaninchen - 200 g",
+        "price":  25,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197885_delicatessen_2019_200g_3d_fasan_kaninchen.jpg",
+        "weight":  "0,2 kg"
+    },
+    {
+        "id":  210,
+        "artikelnummer":  "198189-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet Delicatessen Dose Fasan \u0026 Kaninchen - 400 g",
+        "price":  35,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/198189_delicatessen2019_400g_3d_fasan_kaninchen.jpg",
+        "weight":  "0,4 kg"
+    },
+    {
+        "id":  211,
+        "artikelnummer":  "197144-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet DeliCatessen Ente Adult - 1,8 kg",
+        "price":  185,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197120_197144_delicatessen_ente.jpg",
+        "weight":  "1,8 kg"
+    },
+    {
+        "id":  212,
+        "artikelnummer":  "197168-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet DeliCatessen Ente Adult - 9 kg",
+        "price":  640,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197120_197144_delicatessen_ente.jpg",
+        "weight":  "9 kg"
+    },
+    {
+        "id":  213,
+        "artikelnummer":  "197120-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet DeliCatessen Ente Adult - 300 g",
+        "price":  45,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197120_197144_delicatessen_ente.jpg",
+        "weight":  "0,3 kg"
+    },
+    {
+        "id":  214,
+        "artikelnummer":  "197243-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet DeliCatessen Shrimps Adult - 300 g",
+        "price":  45,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197243_197267_delicatessen_shrimps.jpg",
+        "weight":  "0,3 kg"
+    },
+    {
+        "id":  215,
+        "artikelnummer":  "197281-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet DeliCatessen Shrimps Adult - 9 kg",
+        "price":  640,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197243_197267_delicatessen_shrimps.jpg",
+        "weight":  "9 kg"
+    },
+    {
+        "id":  216,
+        "artikelnummer":  "197267-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet DeliCatessen Shrimps Adult - 1,8 kg",
+        "price":  185,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197243_197267_delicatessen_shrimps.jpg",
+        "weight":  "1,8 kg"
+    },
+    {
+        "id":  217,
+        "artikelnummer":  "197489-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet DeliCatessen Kitten Geflügel - 300 g",
+        "price":  45,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197489_197502_delicatessen_kitten_junior.jpg",
+        "weight":  "0,3 kg"
+    },
+    {
+        "id":  218,
+        "artikelnummer":  "197502-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet DeliCatessen Kitten Geflügel - 1,8 kg",
+        "price":  185,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197489_197502_delicatessen_kitten_junior.jpg",
+        "weight":  "1,8 kg"
+    },
+    {
+        "id":  219,
+        "artikelnummer":  "197526-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet DeliCatessen Kitten Geflügel - 9 kg",
+        "price":  640,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197489_197502_delicatessen_kitten_junior.jpg",
+        "weight":  "9 kg"
+    },
+    {
+        "id":  220,
+        "artikelnummer":  "198363-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet Delicatessen Dose Lachs PUR - 375 g",
+        "price":  35,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/198363_delicatessen2019_400g_3d_lachs_pur.jpg",
+        "weight":  "0,375 kg"
+    },
+    {
+        "id":  221,
+        "artikelnummer":  "198066-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet Delicatessen Dose Lachs PUR - 185 g",
+        "price":  25,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/198066_delicatessen_2019_200g_3d_lachs_pur.jpg",
+        "weight":  "0,185 kg"
+    },
+    {
+        "id":  222,
+        "artikelnummer":  "197922-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet Delicatessen Dose Thunfisch \u0026 Ente - 200 g",
+        "price":  25,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197922_delicatessen_2019_200g_3d_thunfisch_ente.jpg",
+        "weight":  "0,2 kg"
+    },
+    {
+        "id":  223,
+        "artikelnummer":  "198004-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet Delicatessen Dose Kalb \u0026 Kaninchen - 200 g",
+        "price":  25,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/198004_delicatessen_2019_200g_3d_kalb_kaninchen.jpg",
+        "weight":  "0,2 kg"
+    },
+    {
+        "id":  224,
+        "artikelnummer":  "198301-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet Delicatessen Dose Kalb \u0026 Kaninchen - 400 g",
+        "price":  35,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/198301_delicatessen2019_400g_3d_kalb_kaninchen.jpg",
+        "weight":  "0,4 kg"
+    },
+    {
+        "id":  225,
+        "artikelnummer":  "198585-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet Delicatessen Dose Kalb \u0026 Kaninchen - 800 g",
+        "price":  50,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/198004_delicatessen_2019_200g_3d_kalb_kaninchen.jpg",
+        "weight":  "0,8 kg"
+    },
+    {
+        "id":  226,
+        "artikelnummer":  "198165-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet Delicatessen Dose Pute \u0026 Shrimps - 400 g",
+        "price":  35,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/198165_delicatessen2019_400g_3d_pute_shrimps.jpg",
+        "weight":  "0,4 kg"
+    },
+    {
+        "id":  227,
+        "artikelnummer":  "197984-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet Delicatessen Dose Lachs \u0026 Meeresfrüchte - 200 g",
+        "price":  25,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197984_delicatessen_2019_200g_3d_lachs_meeresfruchte.jpg",
+        "weight":  "0,2 kg"
+    },
+    {
+        "id":  228,
+        "artikelnummer":  "198288-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet Delicatessen Dose Lachs \u0026 Meeresfrüchte - 400 g",
+        "price":  35,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/198288_delicatessen2019_400g_3d_lachs_meeresfruchte.jpg",
+        "weight":  "0,4 kg"
+    },
+    {
+        "id":  229,
+        "artikelnummer":  "197960-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet Delicatessen Dose Lamm \u0026 Truthahn - 200 g",
+        "price":  25,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197960_delicatessen_2019_200g_3d_lamm_truthahn.jpg",
+        "weight":  "0,2 kg"
+    },
+    {
+        "id":  230,
+        "artikelnummer":  "198264-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet Delicatessen Dose Lamm \u0026 Truthahn - 400 g",
+        "price":  35,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/198264_delicatessen2019_400g_3d_lamm_truthahn.jpg",
+        "weight":  "0,4 kg"
+    },
+    {
+        "id":  231,
+        "artikelnummer":  "197861-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet Delicatessen Dose Pute \u0026 Shrimps - 200 g",
+        "price":  25,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197861_delicatessen_2019_200g_3d_pute_shrimps.jpg",
+        "weight":  "0,2 kg"
+    },
+    {
+        "id":  232,
+        "artikelnummer":  "197427-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet DeliCatessen Seefisch \u0026 Garnelen Adult - 300 g",
+        "price":  45,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197427_197441_delicatessen_seefisch_garnelen.jpg",
+        "weight":  "0,3 kg"
+    },
+    {
+        "id":  233,
+        "artikelnummer":  "197441-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet DeliCatessen Seefisch \u0026 Garnelen Adult - 1,8 kg",
+        "price":  185,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197427_197441_delicatessen_seefisch_garnelen.jpg",
+        "weight":  "1,8 kg"
+    },
+    {
+        "id":  234,
+        "artikelnummer":  "197465-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet DeliCatessen Seefisch \u0026 Garnelen Adult - 9 kg",
+        "price":  640,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197427_197441_delicatessen_seefisch_garnelen.jpg",
+        "weight":  "9 kg"
+    },
+    {
+        "id":  235,
+        "artikelnummer":  "197908-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet Delicatessen Dose Lachs \u0026 Pute - 200 g",
+        "price":  25,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197908_delicatessen_2019_200g_3d_lachs_pute.jpg",
+        "weight":  "0,2 kg"
+    },
+    {
+        "id":  236,
+        "artikelnummer":  "198202-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet Delicatessen Dose Lachs \u0026 Pute - 400 g",
+        "price":  35,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/198202_delicatessen2019_400g_3d_lachs_pute.jpg",
+        "weight":  "0,4 kg"
+    },
+    {
+        "id":  237,
+        "artikelnummer":  "198486-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet Delicatessen Dose Lachs \u0026 Pute - 800 g",
+        "price":  50,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197908_delicatessen_2019_200g_3d_lachs_pute.jpg",
+        "weight":  "0,8 kg"
+    },
+    {
+        "id":  238,
+        "artikelnummer":  "197328-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet DeliCatessen Kaninchen \u0026 Lamm Adult - 1,8 kg",
+        "price":  185,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197304_197328_delicatessen_kaninchen_lamm.jpg",
+        "weight":  "1,8 kg"
+    },
+    {
+        "id":  239,
+        "artikelnummer":  "197205-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet DeliCatessen Geflügel Adult - 1,8 kg",
+        "price":  185,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197182_197205_delicatessen_geflugel.jpg",
+        "weight":  "1,8 kg"
+    },
+    {
+        "id":  240,
+        "artikelnummer":  "197182-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet DeliCatessen Geflügel Adult - 300 g",
+        "price":  45,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197182_197205_delicatessen_geflugel.jpg",
+        "weight":  "0,3 kg"
+    },
+    {
+        "id":  241,
+        "artikelnummer":  "198462-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet Delicatessen Dose Fasan \u0026 Kaninchen - 800 g",
+        "price":  50,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197885_delicatessen_2019_200g_3d_fasan_kaninchen.jpg",
+        "weight":  "0,8 kg"
+    },
+    {
+        "id":  242,
+        "artikelnummer":  "197342-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet DeliCatessen Kaninchen \u0026 Lamm Adult - 9 kg",
+        "price":  640,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197304_197328_delicatessen_kaninchen_lamm.jpg",
+        "weight":  "9 kg"
+    },
+    {
+        "id":  243,
+        "artikelnummer":  "197304-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet DeliCatessen Kaninchen \u0026 Lamm Adult - 300 g",
+        "price":  45,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197304_197328_delicatessen_kaninchen_lamm.jpg",
+        "weight":  "0,3 kg"
+    },
+    {
+        "id":  244,
+        "artikelnummer":  "198387-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet Delicatessen Dose Huhn PUR - 400 g",
+        "price":  35,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/198080_delicatessen2019_400g_3d_huhn_pur.jpg",
+        "weight":  "0,4 kg"
+    },
+    {
+        "id":  245,
+        "artikelnummer":  "198080-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet Delicatessen Dose Huhn PUR - 200 g",
+        "price":  25,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/198080_delicatessen_2019_200g_3d_huhn_pur.jpg",
+        "weight":  "0,2 kg"
+    },
+    {
+        "id":  246,
+        "artikelnummer":  "198660-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet Delicatessen Dose Huhn PUR - 800 g ",
+        "price":  50,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/198080_delicatessen_2019_200g_3d_huhn_pur.jpg",
+        "weight":  "0,8 kg"
+    },
+    {
+        "id":  247,
+        "artikelnummer":  "197229-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet DeliCatessen Geflügel Adult - 9 kg",
+        "price":  640,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197182_197205_delicatessen_geflugel.jpg",
+        "weight":  "9 kg"
+    },
+    {
+        "id":  248,
+        "artikelnummer":  "198400-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet Delicatessen Dose Kalb PUR - 400 g",
+        "price":  35,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/198400_delicatessen2019_400g_3d_kalb_pur.jpg",
+        "weight":  "0,4 kg"
+    },
+    {
+        "id":  249,
+        "artikelnummer":  "198103-GP",
+        "hersteller":  "GranataPet",
+        "titel":  "GranataPet Delicatessen Dose Kalb PUR - 200 g",
+        "price":  25,
+        "bild1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/198103_delicatessen_2019_200g_3d_kalb_pur.jpg",
+        "weight":  "0,2 kg"
+    }
+]

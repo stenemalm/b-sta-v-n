@@ -1,0 +1,458 @@
+﻿{
+    "sand":  [
+                 {
+                     "ARTIKELNUMMER":  "08334",
+                     "HERSTELLER":  "Karlie",
+                     "TITEL":  "Katzentoilette FURBA",
+                     "VERKAUFSPREIS":  "12,6",
+                     "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/84300a_z1.jpg",
+                     "GRUNDPREIS_MENGE":  "",
+                     "GRUNDPREIS_EINHEIT":  ""
+                 },
+                 {
+                     "ARTIKELNUMMER":  "84303",
+                     "HERSTELLER":  "Karlie",
+                     "TITEL":  "Karlie Katzentoiletten-Beutel - 10er Set",
+                     "VERKAUFSPREIS":  "1,97",
+                     "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/84303_z1.jpg",
+                     "GRUNDPREIS_MENGE":  "",
+                     "GRUNDPREIS_EINHEIT":  ""
+                 },
+                 {
+                     "ARTIKELNUMMER":  "08309",
+                     "HERSTELLER":  "Karlie",
+                     "TITEL":  "Karlie Universal-Aktivkohlefilter",
+                     "VERKAUFSPREIS":  "1,46",
+                     "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/08309_z1.jpg",
+                     "GRUNDPREIS_MENGE":  "",
+                     "GRUNDPREIS_EINHEIT":  ""
+                 },
+                 {
+                     "ARTIKELNUMMER":  "47938-IMP",
+                     "HERSTELLER":  "Karlie",
+                     "TITEL":  "Karlie Swifty Scoop\u0027n Clever Kotschaufel mit Tütenspender",
+                     "VERKAUFSPREIS":  "2,22",
+                     "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/47938-impn.jpg",
+                     "GRUNDPREIS_MENGE":  "",
+                     "GRUNDPREIS_EINHEIT":  ""
+                 },
+                 {
+                     "ARTIKELNUMMER":  "08385-IMP",
+                     "HERSTELLER":  "Karlie",
+                     "TITEL":  "Karlie Swifty Scoop Metall-Kotschaufel",
+                     "VERKAUFSPREIS":  "2,98",
+                     "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/08385.jpg",
+                     "GRUNDPREIS_MENGE":  "",
+                     "GRUNDPREIS_EINHEIT":  ""
+                 },
+                 {
+                     "ARTIKELNUMMER":  "08312",
+                     "HERSTELLER":  "Karlie",
+                     "TITEL":  "Karlie Katzentoilette mit Rand",
+                     "VERKAUFSPREIS":  "3,02",
+                     "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/karlie08312_z1.jpg",
+                     "GRUNDPREIS_MENGE":  "",
+                     "GRUNDPREIS_EINHEIT":  ""
+                 },
+                 {
+                     "ARTIKELNUMMER":  "46880",
+                     "HERSTELLER":  "Karlie",
+                     "TITEL":  "Karlie PERCATO Premium Katzenstreu - 5 L",
+                     "VERKAUFSPREIS":  "3,99",
+                     "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/46880_z1.jpg",
+                     "GRUNDPREIS_MENGE":  "5",
+                     "GRUNDPREIS_EINHEIT":  "Liter"
+                 },
+                 {
+                     "ARTIKELNUMMER":  "46883",
+                     "HERSTELLER":  "Karlie",
+                     "TITEL":  "Karlie PERCATO Premium Katzenstreu - 10 L Vorratsbeutel",
+                     "VERKAUFSPREIS":  "8,51",
+                     "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/46881_z1.jpg",
+                     "GRUNDPREIS_MENGE":  "10",
+                     "GRUNDPREIS_EINHEIT":  "Liter"
+                 },
+                 {
+                     "ARTIKELNUMMER":  "4042-TRXI",
+                     "HERSTELLER":  "Trixie",
+                     "TITEL":  "Trixie Junior Katzentoilette Kitty",
+                     "VERKAUFSPREIS":  "2,45",
+                     "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/kitty1.jpg",
+                     "GRUNDPREIS_MENGE":  "",
+                     "GRUNDPREIS_EINHEIT":  ""
+                 },
+                 {
+                     "ARTIKELNUMMER":  "08384",
+                     "HERSTELLER":  "Karlie",
+                     "TITEL":  "Karlie Swifty Scoop Alu-Kotschaufel",
+                     "VERKAUFSPREIS":  "9,28",
+                     "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/low_jpg-08384.jpg",
+                     "GRUNDPREIS_MENGE":  "",
+                     "GRUNDPREIS_EINHEIT":  ""
+                 },
+                 {
+                     "ARTIKELNUMMER":  "560142",
+                     "HERSTELLER":  "Karlie",
+                     "TITEL":  "Karlie Flamingo Katzentoilette Graffiti",
+                     "VERKAUFSPREIS":  "7,45",
+                     "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/560142.jpg",
+                     "GRUNDPREIS_MENGE":  "",
+                     "GRUNDPREIS_EINHEIT":  ""
+                 },
+                 {
+                     "ARTIKELNUMMER":  "40210-TRXI",
+                     "HERSTELLER":  "Trixie",
+                     "TITEL":  "Trixie Be Eco Katzentoilette Vico",
+                     "VERKAUFSPREIS":  "8,95",
+                     "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/40210-trxi.jpg",
+                     "GRUNDPREIS_MENGE":  "",
+                     "GRUNDPREIS_EINHEIT":  ""
+                 },
+                 {
+                     "ARTIKELNUMMER":  "40398-TRXI",
+                     "HERSTELLER":  "Trixie",
+                     "TITEL":  "Trixie Katzentoilette Delio mit Motiv - grün/weiß",
+                     "VERKAUFSPREIS":  "8,45",
+                     "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/40398.jpg",
+                     "GRUNDPREIS_MENGE":  "",
+                     "GRUNDPREIS_EINHEIT":  ""
+                 },
+                 {
+                     "ARTIKELNUMMER":  "002169-SLTE",
+                     "HERSTELLER":  "Savic",
+                     "TITEL":  "Savic Katzentoilette flach - blau/rosa",
+                     "VERKAUFSPREIS":  "1,75",
+                     "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/0216_0000_1.jpg",
+                     "GRUNDPREIS_MENGE":  "",
+                     "GRUNDPREIS_EINHEIT":  ""
+                 },
+                 {
+                     "ARTIKELNUMMER":  "40111-TRXI",
+                     "HERSTELLER":  "Trixie",
+                     "TITEL":  "Trixie Katzentoilette Carlo 1 - grau/hellgrau",
+                     "VERKAUFSPREIS":  "3,45",
+                     "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/40111-trxi-neu.jpg",
+                     "GRUNDPREIS_MENGE":  "",
+                     "GRUNDPREIS_EINHEIT":  ""
+                 }
+             ],
+    "wet":  [
+                {
+                    "ARTIKELNUMMER":  "9113575-WOK",
+                    "HERSTELLER":  "Applaws",
+                    "TITEL":  "Applaws Cat MP Fisch Selection 12x156g",
+                    "VERKAUFSPREIS":  "19,79",
+                    "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/5060481899086.png",
+                    "GRUNDPREIS_MENGE":  "1,872",
+                    "GRUNDPREIS_EINHEIT":  "kg"
+                },
+                {
+                    "ARTIKELNUMMER":  "9113588-WOK",
+                    "HERSTELLER":  "Applaws",
+                    "TITEL":  "Applaws Cat MP Fisch Selection in Gelee 12x70g",
+                    "VERKAUFSPREIS":  "9,89",
+                    "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/5060481899147.png",
+                    "GRUNDPREIS_MENGE":  "0,84",
+                    "GRUNDPREIS_EINHEIT":  "kg"
+                },
+                {
+                    "ARTIKELNUMMER":  "197724-GP",
+                    "HERSTELLER":  "GranataPet",
+                    "TITEL":  "GranataPet Delicatessen Pouch Truthahn \u0026 Fasan 85 g",
+                    "VERKAUFSPREIS":  "0,98",
+                    "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197724_delicatessen_85g_pouch_truthahn_fasan.jpg",
+                    "GRUNDPREIS_MENGE":  "0,085",
+                    "GRUNDPREIS_EINHEIT":  "kg"
+                },
+                {
+                    "ARTIKELNUMMER":  "WB783748",
+                    "HERSTELLER":  "Wolfsblut",
+                    "TITEL":  "Wolfsblut Dose Blue Mountain 395g",
+                    "VERKAUFSPREIS":  "2,25",
+                    "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/wb783748wolfsblutadultbluemountain-wildmitkartoffelnnassfutter6x395g.jpg",
+                    "GRUNDPREIS_MENGE":  "0,395",
+                    "GRUNDPREIS_EINHEIT":  "kg"
+                },
+                {
+                    "ARTIKELNUMMER":  "WB784523",
+                    "HERSTELLER":  "Wolfsblut",
+                    "TITEL":  "Wolfsblut Adult Wild Duck \u0026 Turkey 800g",
+                    "VERKAUFSPREIS":  "3,86",
+                    "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/wb784523wolfsblutadultwildduckturkeynassfutter6x800g.png",
+                    "GRUNDPREIS_MENGE":  "0,8",
+                    "GRUNDPREIS_EINHEIT":  "kg"
+                },
+                {
+                    "ARTIKELNUMMER":  "WB783090",
+                    "HERSTELLER":  "Wolfsblut",
+                    "TITEL":  "Wolfsblut Dose Wild Duck Puppy 395g",
+                    "VERKAUFSPREIS":  "2,25",
+                    "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/wb783090wolfsblutpuppywildduck-entemitkrbisnassfutter6x395g.jpg",
+                    "GRUNDPREIS_MENGE":  "0,395",
+                    "GRUNDPREIS_EINHEIT":  "kg"
+                },
+                {
+                    "ARTIKELNUMMER":  "197762-GP",
+                    "HERSTELLER":  "GranataPet",
+                    "TITEL":  "GranataPet Delicatessen Pouch Lachs PUR 85 g",
+                    "VERKAUFSPREIS":  "0,98",
+                    "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197762_delicatessen_85g_pouch_lachs_pur.jpg",
+                    "GRUNDPREIS_MENGE":  "0,085",
+                    "GRUNDPREIS_EINHEIT":  "kg"
+                },
+                {
+                    "ARTIKELNUMMER":  "197809-GP",
+                    "HERSTELLER":  "GranataPet",
+                    "TITEL":  "GranataPet Delicatessen Pouch Kalb PUR 85 g",
+                    "VERKAUFSPREIS":  "0,98",
+                    "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197809_delicatessen_85g_pouch_kalb_pur.jpg",
+                    "GRUNDPREIS_MENGE":  "0,085",
+                    "GRUNDPREIS_EINHEIT":  "kg"
+                },
+                {
+                    "ARTIKELNUMMER":  "197601-GP",
+                    "HERSTELLER":  "GranataPet",
+                    "TITEL":  "GranataPet Delicatessen Pouch Lachs \u0026 Pute 85 g",
+                    "VERKAUFSPREIS":  "0,98",
+                    "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197601_delicatessen_85g_pouch_lachs_pute.jpg",
+                    "GRUNDPREIS_MENGE":  "0,085",
+                    "GRUNDPREIS_EINHEIT":  "kg"
+                },
+                {
+                    "ARTIKELNUMMER":  "198127-GP",
+                    "HERSTELLER":  "GranataPet",
+                    "TITEL":  "GranataPet Delicatessen Dose Kitten Geflügel 200g",
+                    "VERKAUFSPREIS":  "1,34",
+                    "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/198127_delicatessen_2019_200g_3d_kitten.jpg",
+                    "GRUNDPREIS_MENGE":  "0,2",
+                    "GRUNDPREIS_EINHEIT":  "kg"
+                },
+                {
+                    "ARTIKELNUMMER":  "197663-GP",
+                    "HERSTELLER":  "GranataPet",
+                    "TITEL":  "GranataPet Delicatessen Pouch Lamm \u0026 Truthahn 85 g",
+                    "VERKAUFSPREIS":  "0,98",
+                    "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197663_delicatessen_85g_pouch_lamm_truthahn.jpg",
+                    "GRUNDPREIS_MENGE":  "0,085",
+                    "GRUNDPREIS_EINHEIT":  "kg"
+                },
+                {
+                    "ARTIKELNUMMER":  "197649-GP",
+                    "HERSTELLER":  "GranataPet",
+                    "TITEL":  "GranataPet Delicatessen Pouch Ente \u0026 Geflügel 85 g",
+                    "VERKAUFSPREIS":  "0,98",
+                    "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197649_delicatessen_85g_pouch_ente_gefluegel.jpg",
+                    "GRUNDPREIS_MENGE":  "0,085",
+                    "GRUNDPREIS_EINHEIT":  "kg"
+                },
+                {
+                    "ARTIKELNUMMER":  "WB784486",
+                    "HERSTELLER":  "Wolfsblut",
+                    "TITEL":  "Wolfsblut Dose Wild Duck \u0026 Turkey Puppy 395g",
+                    "VERKAUFSPREIS":  "2,25",
+                    "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/wb784486wolfsblutpuppywildduckturkeynassfutter6x395g.jpg",
+                    "GRUNDPREIS_MENGE":  "0,395",
+                    "GRUNDPREIS_EINHEIT":  "kg"
+                },
+                {
+                    "ARTIKELNUMMER":  "197748-GP",
+                    "HERSTELLER":  "GranataPet",
+                    "TITEL":  "GranataPet Delicatessen Pouch Wild PUR 85 g",
+                    "VERKAUFSPREIS":  "0,98",
+                    "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197748_delicatessen_85g_pouch_wild_pur.jpg",
+                    "GRUNDPREIS_MENGE":  "0,085",
+                    "GRUNDPREIS_EINHEIT":  "kg"
+                },
+                {
+                    "ARTIKELNUMMER":  "WB783069",
+                    "HERSTELLER":  "Wolfsblut",
+                    "TITEL":  "Wolfsblut Dose Wild Duck 800g",
+                    "VERKAUFSPREIS":  "4,26",
+                    "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/wb783069wolfsblutadultwildduck-entemitkartoffelnnassfutter6x800g.jpg",
+                    "GRUNDPREIS_MENGE":  "0,8",
+                    "GRUNDPREIS_EINHEIT":  "kg"
+                },
+                {
+                    "ARTIKELNUMMER":  "197540-GP",
+                    "HERSTELLER":  "GranataPet",
+                    "TITEL":  "GranataPet Delicatessen Pouch Wild \u0026 Thunfisch 85 g",
+                    "VERKAUFSPREIS":  "0,98",
+                    "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197540_delicatessen_85g_pouch_wild_thunfisch.jpg",
+                    "GRUNDPREIS_MENGE":  "0,085",
+                    "GRUNDPREIS_EINHEIT":  "kg"
+                },
+                {
+                    "ARTIKELNUMMER":  "197564-GP",
+                    "HERSTELLER":  "GranataPet",
+                    "TITEL":  "GranataPet Delicatessen Pouch Pute \u0026 Shrimps 85 g",
+                    "VERKAUFSPREIS":  "0,98",
+                    "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197564_delicatessen_85g_pouch_pute_shrimps.jpg",
+                    "GRUNDPREIS_MENGE":  "0,085",
+                    "GRUNDPREIS_EINHEIT":  "kg"
+                },
+                {
+                    "ARTIKELNUMMER":  "197625-GP",
+                    "HERSTELLER":  "GranataPet",
+                    "TITEL":  "GranataPet Delicatessen Pouch Thunfisch \u0026 Ente 85 g",
+                    "VERKAUFSPREIS":  "0,98",
+                    "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197625_delicatessen_85g_pouch_thunfisch_ente.jpg",
+                    "GRUNDPREIS_MENGE":  "0,085",
+                    "GRUNDPREIS_EINHEIT":  "kg"
+                },
+                {
+                    "ARTIKELNUMMER":  "197786-GP",
+                    "HERSTELLER":  "GranataPet",
+                    "TITEL":  "GranataPet Delicatessen Pouch Huhn PUR 85 g",
+                    "VERKAUFSPREIS":  "0,98",
+                    "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197786_delicatessen_85g_pouch_huhn_pur.jpg",
+                    "GRUNDPREIS_MENGE":  "0,085",
+                    "GRUNDPREIS_EINHEIT":  "kg"
+                },
+                {
+                    "ARTIKELNUMMER":  "197823-GP",
+                    "HERSTELLER":  "GranataPet",
+                    "TITEL":  "GranataPet Delicatessen Pouch Kitten Geflügel 85 g",
+                    "VERKAUFSPREIS":  "0,98",
+                    "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197823_delicatessen_85g_pouch_kitten_junior.jpg",
+                    "GRUNDPREIS_MENGE":  "0,085",
+                    "GRUNDPREIS_EINHEIT":  "kg"
+                },
+                {
+                    "ARTIKELNUMMER":  "197687-GP",
+                    "HERSTELLER":  "GranataPet",
+                    "TITEL":  "GranataPet Delicatessen Pouch Lachs \u0026 Meeresfrüchte 85 g",
+                    "VERKAUFSPREIS":  "0,98",
+                    "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197687_delicatessen_85g_pouch_lachs_meeresfruechte.jpg",
+                    "GRUNDPREIS_MENGE":  "0,085",
+                    "GRUNDPREIS_EINHEIT":  "kg"
+                },
+                {
+                    "ARTIKELNUMMER":  "197588-GP",
+                    "HERSTELLER":  "GranataPet",
+                    "TITEL":  "GranataPet Delicatessen Pouch Fasan \u0026 Kaninchen 85 g",
+                    "VERKAUFSPREIS":  "0,98",
+                    "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197588_delicatessen_85g_pouch_fasan_kaninchen.jpg",
+                    "GRUNDPREIS_MENGE":  "0,085",
+                    "GRUNDPREIS_EINHEIT":  "kg"
+                },
+                {
+                    "ARTIKELNUMMER":  "197700-GP",
+                    "HERSTELLER":  "GranataPet",
+                    "TITEL":  "GranataPet Delicatessen Pouch Kalb \u0026 Kaninchen 85 g",
+                    "VERKAUFSPREIS":  "0,98",
+                    "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197700_delicatessen_85g_pouch_kalb_kaninchen.jpg",
+                    "GRUNDPREIS_MENGE":  "0,085",
+                    "GRUNDPREIS_EINHEIT":  "kg"
+                },
+                {
+                    "ARTIKELNUMMER":  "WB783342",
+                    "HERSTELLER":  "Wolfsblut",
+                    "TITEL":  "Wolfsblut Dose Dark Forest 800g",
+                    "VERKAUFSPREIS":  "4,26",
+                    "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/wb783342darkforestadult-wildmitskartoffel6x800g.jpg",
+                    "GRUNDPREIS_MENGE":  "0,8",
+                    "GRUNDPREIS_EINHEIT":  "kg"
+                },
+                {
+                    "ARTIKELNUMMER":  "WB783427",
+                    "HERSTELLER":  "Wolfsblut",
+                    "TITEL":  "Wolfsblut Dose Black Bird 800g",
+                    "VERKAUFSPREIS":  "4,26",
+                    "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/wb783427wolfsblutadultblackbird-truthahnmitskartoffelnnassfutter6x800g.jpg",
+                    "GRUNDPREIS_MENGE":  "0,8",
+                    "GRUNDPREIS_EINHEIT":  "kg"
+                }
+            ],
+    "dry":  [
+                {
+                    "ARTIKELNUMMER":  "WB786442",
+                    "HERSTELLER":  "Wolfsblut",
+                    "TITEL":  "Wolfsblut VetLine Weight Management - 2 kg",
+                    "VERKAUFSPREIS":  "12,49",
+                    "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/wolfsblut_trockenfutter_weight_management_frontside_2kg_4260603786442_1000px_1.jpg",
+                    "GRUNDPREIS_MENGE":  "2",
+                    "GRUNDPREIS_EINHEIT":  "kg"
+                },
+                {
+                    "ARTIKELNUMMER":  "WB786459",
+                    "HERSTELLER":  "Wolfsblut",
+                    "TITEL":  "Wolfsblut VetLine Weight Management - 12 kg",
+                    "VERKAUFSPREIS":  "55,79",
+                    "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/wb786459wolfsblutvetlineweightmanagement12kg.jpg",
+                    "GRUNDPREIS_MENGE":  "12",
+                    "GRUNDPREIS_EINHEIT":  "kg"
+                },
+                {
+                    "ARTIKELNUMMER":  "197489-GP",
+                    "HERSTELLER":  "GranataPet",
+                    "TITEL":  "GranataPet DeliCatessen Kitten Geflügel - 300 g",
+                    "VERKAUFSPREIS":  "2,93",
+                    "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197489_197502_delicatessen_kitten_junior.jpg",
+                    "GRUNDPREIS_MENGE":  "0,3",
+                    "GRUNDPREIS_EINHEIT":  "kg"
+                },
+                {
+                    "ARTIKELNUMMER":  "197502-GP",
+                    "HERSTELLER":  "GranataPet",
+                    "TITEL":  "GranataPet DeliCatessen Kitten Geflügel - 1,8 kg",
+                    "VERKAUFSPREIS":  "12,33",
+                    "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197489_197502_delicatessen_kitten_junior.jpg",
+                    "GRUNDPREIS_MENGE":  "1,8",
+                    "GRUNDPREIS_EINHEIT":  "kg"
+                },
+                {
+                    "ARTIKELNUMMER":  "197526-GP",
+                    "HERSTELLER":  "GranataPet",
+                    "TITEL":  "GranataPet DeliCatessen Kitten Geflügel - 9 kg",
+                    "VERKAUFSPREIS":  "42,41",
+                    "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197489_197502_delicatessen_kitten_junior.jpg",
+                    "GRUNDPREIS_MENGE":  "9",
+                    "GRUNDPREIS_EINHEIT":  "kg"
+                },
+                {
+                    "ARTIKELNUMMER":  "WB784769",
+                    "HERSTELLER":  "Wolfsblut",
+                    "TITEL":  "Wolfsblut Black Bird Puppy Large - 12,5 kg",
+                    "VERKAUFSPREIS":  "61,86",
+                    "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/4260262761828.jpg",
+                    "GRUNDPREIS_MENGE":  "12,5",
+                    "GRUNDPREIS_EINHEIT":  "kg"
+                },
+                {
+                    "ARTIKELNUMMER":  "197243-GP",
+                    "HERSTELLER":  "GranataPet",
+                    "TITEL":  "GranataPet DeliCatessen Shrimps Adult - 300 g",
+                    "VERKAUFSPREIS":  "2,93",
+                    "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197243_197267_delicatessen_shrimps.jpg",
+                    "GRUNDPREIS_MENGE":  "0,3",
+                    "GRUNDPREIS_EINHEIT":  "kg"
+                },
+                {
+                    "ARTIKELNUMMER":  "197281-GP",
+                    "HERSTELLER":  "GranataPet",
+                    "TITEL":  "GranataPet DeliCatessen Shrimps Adult - 9 kg",
+                    "VERKAUFSPREIS":  "42,41",
+                    "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197243_197267_delicatessen_shrimps.jpg",
+                    "GRUNDPREIS_MENGE":  "9",
+                    "GRUNDPREIS_EINHEIT":  "kg"
+                },
+                {
+                    "ARTIKELNUMMER":  "197267-GP",
+                    "HERSTELLER":  "GranataPet",
+                    "TITEL":  "GranataPet DeliCatessen Shrimps Adult - 1,8 kg",
+                    "VERKAUFSPREIS":  "12,33",
+                    "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/197243_197267_delicatessen_shrimps.jpg",
+                    "GRUNDPREIS_MENGE":  "1,8",
+                    "GRUNDPREIS_EINHEIT":  "kg"
+                },
+                {
+                    "ARTIKELNUMMER":  "WB785063",
+                    "HERSTELLER":  "Wolfsblut",
+                    "TITEL":  "Wolfsblut Adult Country Chicken - 2 kg",
+                    "VERKAUFSPREIS":  "13,22",
+                    "BILD1":  "https://www.zoodrop.de/out/pictures/generated/product/1/665_665_100/wb785063wolfsblutcountrychickenadult2kg.jpg",
+                    "GRUNDPREIS_MENGE":  "2",
+                    "GRUNDPREIS_EINHEIT":  "kg"
+                }
+            ]
+}
