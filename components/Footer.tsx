@@ -34,7 +34,7 @@ export default function Footer() {
       </div>
       <div style={{ maxWidth: 1200, margin: '2rem auto 0', paddingTop: '1.5rem', borderTop: '1px solid var(--border)', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '0.5rem' }}>
         <p style={{ color: 'var(--muted)', fontSize: '0.8rem' }}>© 2025 Bästa Vän. Enskild firma.</p>
-        <p style={{ color: 'var(--muted)', fontSize: '0.8rem' }}>🇸🇪 Fri frakt över 599 kr · 1–3 dagars leverans</p>
+        <p style={{ color: 'var(--muted)', fontSize: '0.8rem' }}>🇩🇪 Skickas från Tyskland · Fri frakt över 599 kr · 3–7 dagars leverans</p>
       </div>
     </footer>
   );

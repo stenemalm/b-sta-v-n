@@ -24,9 +24,19 @@ const nameDict = [
   [/\bAuflauf\b/gi,'gryta'],[/\bRagout\b/gi,'ragout'],
   [/\bHuhn & Lachs\b/gi,'kyckling & lax'],[/\bKräuter\b/gi,'örter'],
   [/\bSupreme\b/gi,'premium'],[/\bNature\b/gi,'natur'],
-  [/\bChunky\b/gi,'bitar'],[/\bFilets\b/gi,'filébitar'],
+  [/\bChunky\b/gi,'bitar'],[/\bFilets\b/gi,'filéer'],[/\bFilet\b/gi,'filé'],
   [/Milkies/gi,'Milkies'],[/Knusperkissen/gi,'knapriga kuddar'],
-  [/Wellness/gi,'välmående'],[/Balance/gi,'balans'],
+  [/\bWellness\b/gi,'välmående'],[/\bBalance\b/gi,'balans'],
+  [/\bFeine\b/gi,'fina'],[/\bNaturelle\b/gi,'naturell'],[/\bNatur\b/gi,'natur'],
+  [/\bDuck\b/gi,'anka'],[/\bTurkey\b/gi,'kalkon'],[/\bPuppy\b/gi,'valp'],
+  [/\bJunior\b/gi,'junior'],[/\bLight\b/gi,'light'],[/\bMini\b/gi,'mini'],
+  [/\bMaxi\b/gi,'maxi'],[/\bGelée\b/gi,'gelé'],[/\bGele\b/gi,'gelé'],
+  [/\bPaté\b/gi,'paté'],[/\bPastete\b/gi,'paté'],[/\bBrühe\b/gi,'buljong'],
+  [/\bHäppchen\b/gi,'bitar'],[/\bStücke\b/gi,'bitar'],[/\bFlocken\b/gi,'flingor'],
+  [/\bGarnelen\b/gi,'räkor'],[/\bSchrimps\b/gi,'räkor'],[/\bKrebse\b/gi,'kräftor'],[/\bThon\b/gi,'tonfisk'],
+  [/\bRehfleisch\b/gi,'rådjurskött'],[/\bHirsch\b/gi,'hjort'],[/\bElch\b/gi,'älg'],
+  [/\bBüffel\b/gi,'buffel'],[/\bStrauß\b/gi,'struts'],[/\bKänguru\b/gi,'känguru'],
+  [/\bPferd\b/gi,'häst'],[/\bForelle\b/gi,'forell'],[/\bSardinelle\b/gi,'sardin'],
 ];
 
 // Translation dictionary for descriptions

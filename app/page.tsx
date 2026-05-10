@@ -86,7 +86,7 @@ export default function Home() {
             { icon: '📦', title: 'Fri frakt', text: 'Över 599 kr' },
             { icon: '🐱', title: 'Uppfödarpriser', text: 'Specialpack för uppfödare' },
             { icon: '✅', title: 'Nöjd-katt-garanti', text: 'Pengarna tillbaka' },
-            { icon: '🇸🇪', title: 'Snabb leverans', text: '1–3 arbetsdagar' },
+            { icon: '🇩🇪', title: 'Skickas från Tyskland', text: '3–7 arbetsdagar' },
           ].map(item => (
             <div key={item.title}>
               <div style={{ fontSize: '1.75rem', marginBottom: '0.5rem' }}>{item.icon}</div>

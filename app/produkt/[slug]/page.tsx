@@ -65,8 +65,8 @@ export default async function ProductPage({
           <AddToCartButton product={product} large />
 
           <div style={{ marginTop: '1.25rem', padding: '1rem', background: 'var(--cream)', borderRadius: 6, fontSize: '0.85rem', color: 'var(--muted)' }}>
-            <p>📦 Fri frakt vid köp över 499 kr</p>
-            <p style={{ marginTop: '0.25rem' }}>🚚 Leverans 1–3 arbetsdagar</p>
+            <p>📦 Fri frakt vid köp över 599 kr</p>
+            <p style={{ marginTop: '0.25rem' }}>🇩🇪 Skickas från Tyskland · 3–7 arbetsdagar</p>
             <p style={{ marginTop: '0.25rem' }}>✅ Nöjd-katt-garanti — pengarna tillbaka</p>
           </div>
         </div>
