@@ -2,7 +2,7 @@ import { getProduct, products } from '@/lib/products';
 import { notFound } from 'next/navigation';
 import AddToCartButton from '@/components/AddToCartButton';
 import Link from 'next/link';
-import Image from 'next/image';
+import ProductImage from '@/components/ProductImage';
 
 export function generateStaticParams() {
   return products.map(p => ({ slug: p.slug }));
@@ -28,13 +28,7 @@ export default async function ProductPage({
       <div style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1fr) minmax(0, 1fr)', gap: '4rem', alignItems: 'start' }}>
         {/* Image */}
         <div style={{ background: 'var(--cream)', borderRadius: 12, aspectRatio: '1 / 1', position: 'relative', overflow: 'hidden' }}>
-          {product.image ? (
-            <Image src={product.image} alt={product.name} fill style={{ objectFit: 'contain', padding: '2rem' }} sizes="(max-width: 768px) 100vw, 50vw" />
-          ) : (
-            <div style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 'clamp(6rem, 15vw, 10rem)' }}>
-              {product.placeholder}
-            </div>
-          )}
+          <ProductImage src={product.image} alt={product.name} placeholder={product.placeholder} sizes="(max-width: 768px) 100vw, 50vw" />
         </div>
 
         {/* Details */}

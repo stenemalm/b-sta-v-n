@@ -1,7 +1,7 @@
 import Link from 'next/link';
-import Image from 'next/image';
 import { products, categories } from '@/lib/products';
 import AddToCartButton from '@/components/AddToCartButton';
+import ProductImage from '@/components/ProductImage';
 
 export default async function Produkter({
   searchParams,
@@ -47,11 +47,7 @@ export default async function Produkter({
           <div key={p.id} style={{ border: '1px solid var(--border)', borderRadius: 8, overflow: 'hidden', background: '#fff' }}>
             <Link href={`/produkt/${p.slug}`} style={{ textDecoration: 'none', color: 'inherit' }}>
               <div style={{ height: 200, background: 'var(--cream)', display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden', position: 'relative' }}>
-                {p.image ? (
-                  <Image src={p.image} alt={p.name} fill style={{ objectFit: 'contain', padding: '1rem' }} sizes="300px" />
-                ) : (
-                  <span style={{ fontSize: '5rem' }}>{p.placeholder}</span>
-                )}
+                <ProductImage src={p.image} alt={p.name} placeholder={p.placeholder} sizes="300px" />
               </div>
             </Link>
             <div style={{ padding: '1.25rem' }}>

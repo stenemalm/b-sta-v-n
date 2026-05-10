@@ -8,9 +8,15 @@ export async function POST(request: NextRequest) {
   const rand = Math.random().toString(36).substr(2, 4).toUpperCase();
   const orderNumber = `BV-${dateStr}-${rand}`;
 
+  let lookup: Record<string, string> = {};
+  try {
+    lookup = require('@/scripts/artnr-lookup.json');
+  } catch {}
+
   const itemsList = order.items
     .map((item: any) => {
-      const artNr = item.image?.match(/\/(\w+)\.jpg$/)?.[1] ?? '-';
+      const filename = item.image?.match(/\/([^/]+)\.jpg$/)?.[1] ?? '';
+      const artNr = lookup[filename] ?? filename ?? '-';
       return `• ${item.name}\n  Antal: ${item.qty} st  |  ${item.price * item.qty} kr\n  ZooDrop-nr: ${artNr}`;
     })
     .join('\n\n');
