@@ -9,8 +9,11 @@ export async function POST(request: NextRequest) {
   const orderNumber = `BV-${dateStr}-${rand}`;
 
   const itemsList = order.items
-    .map((item: any) => `• ${item.name} (${item.qty} st) — ${item.price * item.qty} kr\n  Art.nr: ${item.id}`)
-    .join('\n');
+    .map((item: any) => {
+      const artNr = item.image?.match(/\/(\w+)\.jpg$/)?.[1] ?? '-';
+      return `• ${item.name}\n  Antal: ${item.qty} st  |  ${item.price * item.qty} kr\n  ZooDrop-nr: ${artNr}`;
+    })
+    .join('\n\n');
 
   const discountLine = order.discount > 0
     ? `Rabatt (${order.discountCode}): -${order.discount} kr\n`
