@@ -7,6 +7,7 @@ const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       { protocol: 'https', hostname: 'www.zoodrop.de' },
+      { protocol: 'https', hostname: 'media.zooplus.com' },
     ],
   },
 };
