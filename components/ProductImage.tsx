@@ -26,7 +26,6 @@ export default function ProductImage({ src, alt, placeholder, sizes = '300px', s
       src={src}
       alt={alt}
       fill
-      unoptimized
       sizes={sizes}
       style={{ objectFit: 'contain', padding: '1rem', ...style }}
       onError={() => setFailed(true)}
