@@ -1,0 +1,12 @@
+﻿{
+    "artikelnummer":  null,
+    "ean":  null,
+    "hersteller":  null,
+    "titel":  null,
+    "beschreibung":  "",
+    "verkaufspreis":  null,
+    "bild1":  null,
+    "menge":  null,
+    "einheit":  null,
+    "typ":  "wet"
+}
