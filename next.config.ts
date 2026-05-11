@@ -6,8 +6,12 @@ const nextConfig: NextConfig = {
   },
   images: {
     remotePatterns: [
-      { protocol: 'https', hostname: 'www.zoodrop.de' },
-      { protocol: 'https', hostname: 'media.zooplus.com' },
+      { protocol: 'https', hostname: 'api.bigbuy.eu' },
+      { protocol: 'https', hostname: 'cdn.bigbuy.eu' },
+      { protocol: 'https', hostname: 'images.ctfassets.net' },
+      { protocol: 'https', hostname: 'assets.acana.com' },
+      { protocol: 'https', hostname: '**.trixie.de' },
+      { protocol: 'https', hostname: 'www.calibra.eu' },
     ],
   },
 };

@@ -49,9 +49,16 @@ export default function Footer() {
 
       </div>
 
-      <div style={{ maxWidth: 1200, margin: '2rem auto 0', paddingTop: '1.5rem', borderTop: '1px solid var(--border)', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '0.5rem' }}>
+      <div style={{ maxWidth: 1200, margin: '2rem auto 0', paddingTop: '1.5rem', borderTop: '1px solid var(--border)', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '0.75rem' }}>
         <p style={{ color: 'var(--muted)', fontSize: '0.8rem' }}>© 2026 Zooplats · Enskild firma · <a href="mailto:info@zooplats.se" style={{ color: 'var(--muted)', textDecoration: 'none' }}>info@zooplats.se</a></p>
         <p style={{ color: 'var(--muted)', fontSize: '0.8rem' }}>🇩🇪 Skickas från Tyskland · Fri frakt över 599 kr · 3–7 dagars leverans</p>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', background: '#e8f5e9', border: '1px solid #a5d6a7', borderRadius: 6, padding: '0.35rem 0.7rem' }}>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2e7d32" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+            <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+          </svg>
+          <span style={{ color: '#2e7d32', fontSize: '0.75rem', fontWeight: 600, letterSpacing: '0.03em' }}>SSL-KRYPTERAD</span>
+        </div>
       </div>
     </footer>
   );
