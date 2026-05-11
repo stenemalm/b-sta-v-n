@@ -5,8 +5,8 @@ import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'Bästa Vän — Premium kattmat, sand & tillbehör',
-  description: 'Handplockat premium för din katt. Fri frakt över 499 kr. Rekommenderat av uppfödare.',
+  title: 'Zooplats — Europeiska premiumprodukter för katt',
+  description: 'Vi importerar de bästa europeiska kattmärkena direkt från Tyskland. Fri frakt över 599 kr. 3–7 dagars leverans.',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

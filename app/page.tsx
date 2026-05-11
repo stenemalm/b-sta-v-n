@@ -10,13 +10,13 @@ export default function Home() {
       {/* Hero */}
       <section style={{ background: 'var(--cream)', padding: '5rem 1.5rem', textAlign: 'center' }}>
         <p style={{ color: 'var(--accent)', fontWeight: 500, fontSize: '0.8rem', letterSpacing: '0.12em', textTransform: 'uppercase', marginBottom: '1rem' }}>
-          Rekommenderat av svenska uppfödare
+          Importerat direkt från Europa
         </p>
         <h1 style={{ fontSize: 'clamp(2rem, 5vw, 3.25rem)', maxWidth: 680, margin: '0 auto 1.25rem' }}>
-          Det bästa för din katt, utan kompromisser
+          Det bästa för din katt, direkt från Europa
         </h1>
-        <p style={{ color: 'var(--muted)', maxWidth: 500, margin: '0 auto 2.5rem', lineHeight: 1.7, fontSize: '1rem' }}>
-          Handplockat premium — kattmat, kattlåda och tillbehör. Fri frakt över 599 kr.
+        <p style={{ color: 'var(--muted)', maxWidth: 540, margin: '0 auto 2.5rem', lineHeight: 1.7, fontSize: '1rem' }}>
+          Vi importerar premiummärken direkt från vårt tyska lager — kattmat, tillbehör och mer. EU-kvalitet, svenska priser. Fri frakt över 599 kr.
         </p>
         <Link href="/produkter" style={{ background: 'var(--accent)', color: '#fff', padding: '0.875rem 2.25rem', borderRadius: 4, textDecoration: 'none', fontWeight: 500, fontSize: '0.95rem' }}>
           Utforska sortimentet
@@ -84,7 +84,7 @@ export default function Home() {
         <div style={{ maxWidth: 1200, margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(160px, 1fr))', gap: '1.5rem', textAlign: 'center' }}>
           {[
             { icon: '📦', title: 'Fri frakt', text: 'Över 599 kr' },
-            { icon: '🐱', title: 'Uppfödarpriser', text: 'Specialpack för uppfödare' },
+            { icon: '🇪🇺', title: 'EU-kvalitetsmärken', text: 'Certifierade europeiska varumärken' },
             { icon: '✅', title: 'Nöjd-katt-garanti', text: 'Pengarna tillbaka' },
             { icon: '🇩🇪', title: 'Skickas från Tyskland', text: '3–7 arbetsdagar' },
           ].map(item => (
