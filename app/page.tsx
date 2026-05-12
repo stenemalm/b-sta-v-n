@@ -1,99 +1,131 @@
 import Link from 'next/link';
-import { products, categories } from '@/lib/products';
-import AddToCartButton from '@/components/AddToCartButton';
+import Image from 'next/image';
+import { products } from '@/lib/products';
+import FeaturedProducts from '@/components/FeaturedProducts';
+
+const TRUST = [
+  { icon: '📦', title: 'Fri frakt', text: 'Över 599 kr' },
+  { icon: '🏠', title: 'Hemleverans', text: '3–7 arbetsdagar' },
+  { icon: '🇪🇺', title: 'EU-kvalitet', text: 'Certifierade märken' },
+  { icon: '✅', title: 'Nöjd-garanti', text: 'Pengarna tillbaka' },
+];
 
 export default function Home() {
   const featured = products.filter(p => p.badge).slice(0, 4);
 
   return (
     <>
-      {/* Hero */}
-      <section style={{ background: 'var(--cream)', padding: '5rem 1.5rem', textAlign: 'center' }}>
-        <p style={{ color: 'var(--accent)', fontWeight: 500, fontSize: '0.8rem', letterSpacing: '0.12em', textTransform: 'uppercase', marginBottom: '1rem' }}>
-          Importerat direkt från Europa
-        </p>
-        <h1 style={{ fontSize: 'clamp(2rem, 5vw, 3.25rem)', maxWidth: 680, margin: '0 auto 1.25rem' }}>
-          Det bästa för din katt, direkt från Europa
-        </h1>
-        <p style={{ color: 'var(--muted)', maxWidth: 540, margin: '0 auto 2.5rem', lineHeight: 1.7, fontSize: '1rem' }}>
-          Vi importerar premiummärken direkt från vårt tyska lager — kattmat, tillbehör och mer. EU-kvalitet, svenska priser. Fri frakt över 599 kr.
-        </p>
-        <Link href="/produkter" style={{ background: 'var(--accent)', color: '#fff', padding: '0.875rem 2.25rem', borderRadius: 4, textDecoration: 'none', fontWeight: 500, fontSize: '0.95rem' }}>
-          Utforska sortimentet
+      {/* ── Hero ─────────────────────────────────────────────────────── */}
+      <section style={{ position: 'relative', height: 'clamp(420px, 55vw, 640px)', overflow: 'hidden' }}>
+        <Image
+          src="https://images.unsplash.com/photo-1450778869180-41d0601e046e?auto=format&fit=crop&w=1600&q=80"
+          alt="Katt och hund"
+          fill
+          style={{ objectFit: 'cover', objectPosition: 'center 60%' }}
+          priority
+        />
+        <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to right, rgba(20,15,10,0.72) 0%, rgba(20,15,10,0.3) 60%, transparent 100%)' }} />
+        <div style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', padding: '0 clamp(1.5rem, 5vw, 5rem)' }}>
+          <div style={{ maxWidth: 560 }}>
+            <p style={{ color: 'rgba(255,255,255,0.75)', fontWeight: 500, fontSize: '0.8rem', letterSpacing: '0.14em', textTransform: 'uppercase', marginBottom: '1rem' }}>
+              Importerat direkt från Europa
+            </p>
+            <h1 style={{ color: '#fff', fontSize: 'clamp(2rem, 4.5vw, 3.25rem)', marginBottom: '1.25rem', lineHeight: 1.15 }}>
+              Det bästa för din<br />katt & hund
+            </h1>
+            <p style={{ color: 'rgba(255,255,255,0.8)', fontSize: '1rem', lineHeight: 1.7, marginBottom: '2rem', maxWidth: 420 }}>
+              Premium europeiska märken — Carnilove, Acana, Trixie och mer. Hemleverans direkt till din dörr.
+            </p>
+            <div style={{ display: 'flex', gap: '0.875rem', flexWrap: 'wrap' }}>
+              <Link href="/produkter?djur=katt"
+                style={{ background: 'var(--accent)', color: '#fff', padding: '0.875rem 1.75rem', borderRadius: 4, textDecoration: 'none', fontWeight: 600, fontSize: '0.9rem' }}>
+                För katten
+              </Link>
+              <Link href="/produkter?djur=hund"
+                style={{ background: 'rgba(255,255,255,0.15)', backdropFilter: 'blur(4px)', color: '#fff', padding: '0.875rem 1.75rem', borderRadius: 4, textDecoration: 'none', fontWeight: 600, fontSize: '0.9rem', border: '1px solid rgba(255,255,255,0.35)' }}>
+                För hunden
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── Trust strip ──────────────────────────────────────────────── */}
+      <section style={{ background: 'var(--cream)', borderBottom: '1px solid var(--border)', padding: '1.25rem 1.5rem' }}>
+        <div style={{ maxWidth: 1200, margin: '0 auto', display: 'flex', justifyContent: 'center', gap: 'clamp(1.5rem, 4vw, 4rem)', flexWrap: 'wrap' }}>
+          {TRUST.map(t => (
+            <div key={t.title} style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
+              <span style={{ fontSize: '1.25rem' }}>{t.icon}</span>
+              <div>
+                <p style={{ fontWeight: 600, fontSize: '0.8rem' }}>{t.title}</p>
+                <p style={{ color: 'var(--muted)', fontSize: '0.75rem' }}>{t.text}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* ── Katt & Hund banners ───────────────────────────────────────── */}
+      <section style={{ maxWidth: 1200, margin: '3.5rem auto', padding: '0 1.5rem', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.25rem' }}>
+        {/* Katt-banner */}
+        <Link href="/produkter?djur=katt" style={{ textDecoration: 'none', position: 'relative', borderRadius: 12, overflow: 'hidden', display: 'block', height: 320 }}>
+          <Image
+            src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=900&q=80"
+            alt="Katt"
+            fill
+            style={{ objectFit: 'cover', objectPosition: 'center 30%' }}
+          />
+          <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(20,15,10,0.75) 0%, transparent 55%)' }} />
+          <div style={{ position: 'absolute', bottom: '1.75rem', left: '1.75rem' }}>
+            <p style={{ color: 'rgba(255,255,255,0.8)', fontSize: '0.75rem', letterSpacing: '0.12em', textTransform: 'uppercase', marginBottom: '0.4rem' }}>Sortiment</p>
+            <h2 style={{ color: '#fff', fontSize: '1.75rem', marginBottom: '0.875rem' }}>För katten</h2>
+            <span style={{ background: '#fff', color: 'var(--text)', padding: '0.5rem 1.25rem', borderRadius: 4, fontSize: '0.85rem', fontWeight: 600 }}>
+              Handla nu →
+            </span>
+          </div>
+        </Link>
+
+        {/* Hund-banner */}
+        <Link href="/produkter?djur=hund" style={{ textDecoration: 'none', position: 'relative', borderRadius: 12, overflow: 'hidden', display: 'block', height: 320 }}>
+          <Image
+            src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?auto=format&fit=crop&w=900&q=80"
+            alt="Hund"
+            fill
+            style={{ objectFit: 'cover', objectPosition: 'center 30%' }}
+          />
+          <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(20,15,10,0.75) 0%, transparent 55%)' }} />
+          <div style={{ position: 'absolute', bottom: '1.75rem', left: '1.75rem' }}>
+            <p style={{ color: 'rgba(255,255,255,0.8)', fontSize: '0.75rem', letterSpacing: '0.12em', textTransform: 'uppercase', marginBottom: '0.4rem' }}>Sortiment</p>
+            <h2 style={{ color: '#fff', fontSize: '1.75rem', marginBottom: '0.875rem' }}>För hunden</h2>
+            <span style={{ background: '#fff', color: 'var(--text)', padding: '0.5rem 1.25rem', borderRadius: 4, fontSize: '0.85rem', fontWeight: 600 }}>
+              Handla nu →
+            </span>
+          </div>
         </Link>
       </section>
 
-      {/* Categories */}
-      <section style={{ maxWidth: 1200, margin: '4rem auto', padding: '0 1.5rem' }}>
-        <h2 style={{ fontSize: '1.5rem', marginBottom: '1.75rem', textAlign: 'center' }}>Vad letar du efter?</h2>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '1rem' }}>
-          {categories.map(c => (
-            <Link key={c.slug} href={`/produkter?kategori=${c.slug}`} style={{ textDecoration: 'none' }}>
-              <div style={{ background: 'var(--cream)', borderRadius: 8, padding: '1.75rem 1rem', textAlign: 'center', border: '1px solid var(--border)' }}>
-                <div style={{ fontSize: '2rem', marginBottom: '0.625rem' }}>{c.icon}</div>
-                <p style={{ fontWeight: 500, fontSize: '0.875rem', color: 'var(--text)' }}>{c.name}</p>
-              </div>
-            </Link>
-          ))}
-        </div>
-      </section>
-
-      {/* Featured products */}
-      <section style={{ maxWidth: 1200, margin: '0 auto 5rem', padding: '0 1.5rem' }}>
-        <h2 style={{ fontSize: '1.5rem', marginBottom: '1.75rem' }}>Bästsäljare & Favoriter</h2>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))', gap: '1.5rem' }}>
-          {featured.map(p => (
-            <div key={p.id} style={{ border: '1px solid var(--border)', borderRadius: 8, overflow: 'hidden', background: '#fff' }}>
-              <Link href={`/produkt/${p.slug}`} style={{ textDecoration: 'none', color: 'inherit' }}>
-                <div style={{ height: 200, background: 'var(--cream)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '5rem' }}>
-                  {p.placeholder}
-                </div>
-              </Link>
-              <div style={{ padding: '1.25rem' }}>
-                {p.badge && (
-                  <span style={{ background: 'var(--accent)', color: '#fff', fontSize: '0.7rem', fontWeight: 600, padding: '2px 8px', borderRadius: 99, letterSpacing: '0.04em' }}>
-                    {p.badge}
-                  </span>
-                )}
-                <Link href={`/produkt/${p.slug}`} style={{ textDecoration: 'none', color: 'inherit' }}>
-                  <h3 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 500, fontSize: '1rem', margin: '0.75rem 0 0.25rem' }}>{p.name}</h3>
-                  <p style={{ color: 'var(--muted)', fontSize: '0.8rem', marginBottom: '1rem' }}>{p.weight ?? p.brand}</p>
-                </Link>
-                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-                  <div>
-                    <span style={{ fontWeight: 600, fontSize: '1.1rem' }}>{p.price} kr</span>
-                    {p.originalPrice && (
-                      <span style={{ color: 'var(--muted)', fontSize: '0.85rem', textDecoration: 'line-through', marginLeft: '0.5rem' }}>{p.originalPrice} kr</span>
-                    )}
-                  </div>
-                  <AddToCartButton product={p} />
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-        <div style={{ textAlign: 'center', marginTop: '3rem' }}>
-          <Link href="/produkter" style={{ border: '1px solid var(--accent)', color: 'var(--accent)', padding: '0.75rem 1.75rem', borderRadius: 4, textDecoration: 'none', fontWeight: 500, fontSize: '0.9rem' }}>
-            Se alla produkter →
+      {/* ── Bästsäljare ──────────────────────────────────────────────── */}
+      <section style={{ maxWidth: 1200, margin: '0 auto 4rem', padding: '0 1.5rem' }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: '2rem' }}>
+          <h2 style={{ fontSize: '1.625rem' }}>Bästsäljare & Favoriter</h2>
+          <Link href="/produkter" style={{ color: 'var(--accent)', textDecoration: 'none', fontSize: '0.875rem', fontWeight: 500 }}>
+            Se alla →
           </Link>
         </div>
+        <FeaturedProducts products={featured} />
       </section>
 
-      {/* Trust strip */}
-      <section style={{ background: 'var(--cream)', borderTop: '1px solid var(--border)', borderBottom: '1px solid var(--border)', padding: '2.5rem 1.5rem' }}>
-        <div style={{ maxWidth: 1200, margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(160px, 1fr))', gap: '1.5rem', textAlign: 'center' }}>
-          {[
-            { icon: '📦', title: 'Fri frakt', text: 'Över 599 kr' },
-            { icon: '🇪🇺', title: 'EU-kvalitetsmärken', text: 'Certifierade europeiska varumärken' },
-            { icon: '✅', title: 'Nöjd-katt-garanti', text: 'Pengarna tillbaka' },
-            { icon: '🇩🇪', title: 'Skickas från Tyskland', text: '3–7 arbetsdagar' },
-          ].map(item => (
-            <div key={item.title}>
-              <div style={{ fontSize: '1.75rem', marginBottom: '0.5rem' }}>{item.icon}</div>
-              <p style={{ fontWeight: 500, fontSize: '0.9rem', marginBottom: '0.2rem' }}>{item.title}</p>
-              <p style={{ color: 'var(--muted)', fontSize: '0.8rem' }}>{item.text}</p>
-            </div>
-          ))}
+      {/* ── Varumärken strip ──────────────────────────────────────────── */}
+      <section style={{ background: 'var(--cream)', borderTop: '1px solid var(--border)', padding: '2.5rem 1.5rem' }}>
+        <div style={{ maxWidth: 1200, margin: '0 auto', textAlign: 'center' }}>
+          <p style={{ color: 'var(--muted)', fontSize: '0.8rem', letterSpacing: '0.1em', textTransform: 'uppercase', marginBottom: '1.5rem' }}>Våra märken</p>
+          <div style={{ display: 'flex', justifyContent: 'center', gap: 'clamp(1.5rem, 4vw, 4rem)', flexWrap: 'wrap', alignItems: 'center' }}>
+            {['Carnilove', 'Acana', 'Calibra', 'Trixie', "Cat's Best"].map(brand => (
+              <span key={brand} style={{ fontFamily: "'Playfair Display', serif", fontSize: 'clamp(1rem, 2.5vw, 1.35rem)', color: 'var(--text)', opacity: 0.7, fontWeight: 500 }}>
+                {brand}
+              </span>
+            ))}
+          </div>
         </div>
       </section>
     </>

@@ -1,4 +1,5 @@
 'use client';
+import { useState } from 'react';
 import { useCart } from '@/lib/cart';
 
 type Product = {
@@ -12,11 +13,19 @@ type Product = {
 
 export default function AddToCartButton({ product, large }: { product: Product; large?: boolean }) {
   const { add } = useCart();
+  const [added, setAdded] = useState(false);
+
+  function handleAdd() {
+    add(product);
+    setAdded(true);
+    setTimeout(() => setAdded(false), 1500);
+  }
+
   return (
     <button
-      onClick={() => add(product)}
+      onClick={handleAdd}
       style={{
-        background: 'var(--accent)',
+        background: added ? '#4a7c4e' : 'var(--accent)',
         color: '#fff',
         border: 'none',
         padding: large ? '0.875rem 2rem' : '0.5rem 1rem',
@@ -25,12 +34,11 @@ export default function AddToCartButton({ product, large }: { product: Product; 
         fontSize: large ? '1rem' : '0.85rem',
         fontWeight: 500,
         width: large ? '100%' : 'auto',
-        transition: 'opacity 0.15s',
+        transition: 'background 0.2s',
+        whiteSpace: 'nowrap',
       }}
-      onMouseOver={e => (e.currentTarget.style.opacity = '0.85')}
-      onMouseOut={e => (e.currentTarget.style.opacity = '1')}
     >
-      Lägg i varukorg
+      {added ? '✓ Tillagd!' : 'Lägg i varukorg'}
     </button>
   );
 }

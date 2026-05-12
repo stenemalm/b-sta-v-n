@@ -3,10 +3,12 @@ import './globals.css';
 import { CartProvider } from '@/lib/cart';
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
+import CookieBanner from '@/components/CookieBanner';
+import CartPopup from '@/components/CartPopup';
 
 export const metadata: Metadata = {
-  title: 'Zooplats — Europeiska premiumprodukter för katt',
-  description: 'Vi importerar de bästa europeiska kattmärkena direkt från Tyskland. Fri frakt över 599 kr. 3–7 dagars leverans.',
+  title: 'Zooplats — Premium för katt & hund',
+  description: 'Europas bästa premiummärken för katt och hund. Fri frakt över 599 kr. Hemleverans 3–7 arbetsdagar.',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -17,6 +19,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <Nav />
           <main style={{ flex: 1 }}>{children}</main>
           <Footer />
+          <CookieBanner />
+          <CartPopup />
         </CartProvider>
       </body>
     </html>
